@@ -11,9 +11,9 @@ browser.get('https://mx.sdf.org/sm/src/login.php')
 
 # Log in with one's email address and password
 email_elem = browser.find_element_by_name('login_username')
-email_elem.send_keys('jban')
+email_elem.send_keys('username')        # insert username here
 password_elem = browser.find_element_by_name("secretkey")
-password_elem.send_keys("JRVH3xUg6PZpaA")
+password_elem.send_keys("password") # insert password here
 password_elem.submit()
 
 # Find the compose button.
