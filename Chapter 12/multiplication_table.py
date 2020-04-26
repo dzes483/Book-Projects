@@ -1,5 +1,5 @@
 #! python3
-# multiplication_table.py - Takes a number N from the command line and creates
+# multiplication_table.py - Takes a number N from the user and creates
 # an NxN multiplication table in an Excel spreadsheet.
 
 import openpyxl
@@ -10,14 +10,23 @@ wb = openpyxl.Workbook()
 sheet = wb.active
 
 # Get the number from the user
-num = int(input('Input a number: '))
+while True:
+    try:
+        num = int(input('Input a number: '))
+    except ValueError:
+        print('Invalid character. Please input a number.')
+        continue
+    else:
+        break
 
 # Define the counters and the font style
 bold_text = Font(bold=True)
 row_counter = 1
 col_counter = 1
 column_num = 2
+
 # Fill out the rows with the header numbers
+print('Printing headers...')
 for row in range(2, num+2):
     sheet['A' + str(row)].value = row_counter
     sheet['A' + str(row)].font = bold_text
@@ -30,6 +39,7 @@ for col in range(1, num+1):
     column_num += 1
 
 # Fill out the data
+print('Filling out the data...')
 for cols in sheet:
     for cell in cols:
         if cell.font != bold_text or cell.row != 1 and cell.column != 1:
@@ -39,4 +49,6 @@ for cols in sheet:
 
 
 # Save the workbook.
-wb.save('multiplication_table.xlsx')
+wb.save(f'{num}_multiplication_table.xlsx')
+
+print(f'Done. File saved as {num}_multiplication_table.xlsx.')
