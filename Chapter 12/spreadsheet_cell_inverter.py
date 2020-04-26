@@ -6,7 +6,8 @@
 import openpyxl
 
 # Load workbooks and define sheets
-source_wb = openpyxl.load_workbook('vegetables_sold.xlsx')
+filename = str(input('Enter an Excel file to load: '))
+source_wb = openpyxl.load_workbook(filename)
 source_sheet = source_wb.active
 target_wb = openpyxl.Workbook()
 target_sheet = target_wb.active
@@ -18,9 +19,10 @@ max_col = source_sheet.max_column
 print('Inverting cells...')
 for row in range(1, max_row+1):
     for col in range(1, max_col+1):
-        target_sheet.cell(row=col, column=row).value = source_sheet.cell(row=row, column=col).value
+        target_sheet.cell(row=col, column=row).value = \
+        source_sheet.cell(row=row, column=col).value
 
 # Save the workbook as a copy
-target_wb.save('vegetables_sold_copy.xlsx')
+target_wb.save('Copy_of_' + filename)
 
 print('Done.')
