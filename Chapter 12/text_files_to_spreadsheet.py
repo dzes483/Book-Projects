@@ -10,6 +10,7 @@ import os
 # Get the file names
 file_list = []
 
+
 def file_input():
     while True:
         file = input('Enter the .txt file you wish to move to Excel: ')
@@ -18,11 +19,12 @@ def file_input():
             # Check that the file exists
             exists = os.path.isfile(file)
             # If it does, then append the file name to the file list
-            if exists == True:
+            if exists:
                 file_list.append(file)
                 break
             else:
-                print('File does not exist. Please enter a valid file name or path.')
+                print('File does not exist. Please enter a valid file name or'
+                      ' path.')
                 continue
         else:
             print('Invalid file format. Please only enter a .txt file.')
