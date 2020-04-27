@@ -6,6 +6,7 @@ strip_left = re.compile(r'^\s*')
 strip_right = re.compile(r'\s*$')
 strip = re.compile(r'^\s*|\s*$')
 
+
 def strip_func(str, char=None):
     if not char:
         new_str = re.sub(strip, "", str)

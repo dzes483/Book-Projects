@@ -6,12 +6,14 @@
 #       py.exe mcb.pyw list - Loads all keywords to clipboard
 #       pw.exe mcb.pyw delete - Deletes all keywords
 
-import shelve, sys
+import shelve
+import sys
 from tkinter import Tk
 
 mcb_shelf = shelve.open('mcb')
 type(mcb_shelf)
 r = Tk()
+
 # Save clipboard content
 if len(sys.argv) == 3 and sys.argv[1].lower() == 'save':
     mcb_shelf[sys.argv[2]] = str(r.selection_get(selection = "CLIPBOARD"))
@@ -29,4 +31,6 @@ elif len(sys.argv) == 2:
         r.clipboard_append(mcb_shelf[sys.argv[1]])
         r.mainloop()
         r.after(3000, r.destroy)
+
+# Close the file
 mcb_shelf.close()

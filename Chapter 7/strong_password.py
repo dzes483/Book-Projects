@@ -6,10 +6,10 @@ import re
 password = str(input("Please enter a password: "))
 
 strong_pword_regex = re.compile(r'''
-                                ^(?=.*?\d)      # Contains at least one digit
-                                (?=.*?[A-Z])    # Contains at least one uppercase letter
-                                (?=.*?[a-z])    # Contains at least one lowercase letter
-                                [A-Za-z\d]{8,}$ # Is at least eight characters long
+                                ^(?=.*?\d)      # At least one digit
+                                (?=.*?[A-Z])    # At least one uppercase letter
+                                (?=.*?[a-z])    # At least one lowercase letter
+                                [A-Za-z\d]{8,}$ # At least 8 characters long
                                 ''', re.VERBOSE)
 try:
     strong_true = strong_pword_regex.search(password).group()
