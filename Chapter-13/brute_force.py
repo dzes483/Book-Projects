@@ -3,30 +3,29 @@
 # possible English word until it finds one that works.
 
 import PyPDF2
-import os
 from tqdm import tqdm
 import sys
 
-os.chdir('/home/jessica/Documents/Programming/MyPythonScripts')
-
 # Open the dictionary file
-word_doc = open('short_dictionary.txt', 'r')
+word_doc = open('dictionary.txt', 'r')
 
 # Read the dictionary file line-by-line
 words = word_doc.readlines()
 
 # Open the encrypted PDF
-pdf_reader = PyPDF2.PdfFileReader(open('encrypted.pdf', 'rb'))
+pdf_doc = input('Enter the name of the PDF file you want to decrypt: ')
+pdf_reader = PyPDF2.PdfFileReader(open(pdf_doc, 'rb'))
 
-# Create a list of word strings by reading the file and strip whitespace characters
+# Create a list of word strings by reading the file and strip off the
+# whitespace characters
 word_list = []
 for word in words:
     word_list.append(word.strip().split())
 
-# # TEST
-# test_list = ['READY', 'ROCK', 'ROSEBUD', 'ROSEMARY']
 
 def brute_force_func():
+    # Loop over each word, passing both the upper and lowercase forms into the
+    # decrypt() method
     for word in words:
         attempt = pdf_reader.decrypt(word.lower())
         attempt_2 = pdf_reader.decrypt(word.upper())
@@ -52,7 +51,8 @@ def brute_force_func():
                 sys.exit('Decryption failed. Exiting...')
         else:
             continue
-# Loop over each word, passing it into the decrypt() method
+
+# Loop over each word
 last_word = word_list[-1]
 print(' Attempting decryption...')
 success = False
@@ -62,4 +62,4 @@ for words in tqdm(word_list):
 try:
     sys.exit()
 except SystemExit:
-    sys.exit('Decryption failed. Exiting...')
+    sys.exit('Exiting...')
