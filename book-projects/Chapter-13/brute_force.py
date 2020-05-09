@@ -52,6 +52,7 @@ def brute_force_func():
         else:
             continue
 
+
 # Loop over each word
 last_word = word_list[-1]
 print(' Attempting decryption...')
