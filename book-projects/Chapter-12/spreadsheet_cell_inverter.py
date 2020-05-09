@@ -20,7 +20,7 @@ print('Inverting cells...')
 for row in range(1, max_row+1):
     for col in range(1, max_col+1):
         target_sheet.cell(row=col, column=row).value = \
-        source_sheet.cell(row=row, column=col).value
+            source_sheet.cell(row=row, column=col).value
 
 # Save the workbook as a copy
 target_wb.save('Copy_of_' + filename)
