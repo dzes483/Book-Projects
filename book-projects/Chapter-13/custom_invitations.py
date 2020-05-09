@@ -15,11 +15,12 @@ guest_list = open(guests, 'r')
 # Define styles
 styles = template.styles
 
-# Loop through the guest list, adding the default text along with the guest name
+# Loop through the guest list, adding the default text along with the guest's
+# name
 print('Printing invitations...')
 for i in guest_list:
-    intro = template.add_paragraph('It would be a pleasure to have the company \
-                                    of\n', style='Heading1')
+    intro = template.add_paragraph('It would be a pleasure to have the company\
+                                     of\n', style='Heading1')
     guest_name = template.add_paragraph(i, style='Heading2')
     address = template.add_paragraph('at 11010 Memory Lane on the evening of',
                                      style='Heading1')
