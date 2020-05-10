@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # excel_to_csv.py - Converts all Excel files in the current working directory
-# into CSV files. The program creates one CSV file per sheet, not per file.
+# into CSV files. The program creates one CSV file per sheet.
 
 import os
 import openpyxl
