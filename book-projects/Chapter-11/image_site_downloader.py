@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+# image_site_downloader.py - Downloads the first three images for the user's
+# chosen search term from the image site "unsplash.com" and places them in a
+# new directory.
+
 import requests
 import os
 import bs4
