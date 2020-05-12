@@ -2,11 +2,10 @@ import requests
 import os
 import bs4
 from bs4 import BeautifulSoup
-import re
-import urllib.request
 
 # Define a search term
-search_term = input('Enter a search term (this will also be the directory name): ')
+search_term = input('Enter a search term (this will also be the directory \
+                    name): ')
 os.makedirs(search_term + '_pictures', exist_ok=True)
 
 # Check if the search term URL works
@@ -26,10 +25,13 @@ for image in images:
         res_img = requests.get(image_src, stream=True)
         res_img.raise_for_status()
 
-        # Write the file
+        # Write the file, making the name everything before the '?', otherwise
+        # it would be an invalid file name.
         question_index = image_src.index('?')
         res_img.raw.decode_content = True
-        image_file = open(os.path.join(search_term + '_pictures', os.path.basename(image_src[28:question_index] + '.jpg')), 'wb')
+        image_file = open(os.path.join(search_term + '_pictures', \
+                          os.path.basename(image_src[28:question_index] \
+                          + '.jpg')), 'wb')
         for chunk in res_img.iter_content(100000):
             image_file.write(chunk)
         image_file.close()
