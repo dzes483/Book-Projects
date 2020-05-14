@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+# sdf_automated_emailer - Automatically opens a browser and sends an email
+# using sdf.org based on the user's inputs of recipient, subject, and
+# message_text.
+
 from selenium import webdriver
 import time
 
