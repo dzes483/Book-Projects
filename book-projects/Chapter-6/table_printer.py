@@ -8,9 +8,9 @@ table_data = [['apples', 'oranges', 'cherries', 'bananas'],
 
 
 def printTable(data):
-    for i in range(len(data[0])):
-        for j in range(len(data)):
-            # This line finds the longest item for each list and its length
+    for i in range(len(data[0])):   # for each list in the data
+        for j in range(len(data)):  # for each item in the list
+            # Find the longest item and its length.
             x = len(max(data[j], key=len))
             print(data[j][i].rjust(x), end=' ')
         print()
