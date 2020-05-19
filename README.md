@@ -29,11 +29,21 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 ## Chapter 12
 [Blank Row Inserter](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-12/blank_row_inserter.py)<br/>
 [Multiplication Table Generator](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-12/multiplication_table.py)<br/>
+[Spreadsheet Cell Inverter](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-12/spreadsheet_cell_inverter.py)<br/>
+[Spreadsheet-to-Textfiles](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-12/spreadsheet_to_text_files.py)<br/>
+[Textfiles-to-Spreadsheet](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-12/text_files_to_spreadsheet.py)<br/>
 
 ## Chapter 13
+[Brute Force](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/brute_force.py)<br/>
+[Custom Invitations](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/custom_invitations.py)<br/>
+[PDF Paranoia](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/pdf_paranoia.py)<br/>
 
 ## Chapter 14
+[Excel-to-CSV](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-14/excel_to_csv.py)<br/>
 
 ## Chapter 15
+[Prettified Stopwatch](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-15/prettified_stopwatch.py)<br/>
+[Scheduled Comic Downloader](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-15/scheduled_comic_downloader.py)<br/>
 
 ## Chapter 16
+[Chore Assignment](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/chore_assignment.py)<br/>
