@@ -4,19 +4,19 @@
 
 import re
 
-strip_left = re.compile(r'^\s*')    # all space characters to the left
-strip_right = re.compile(r'\s*$')   # all space characters to the right
 strip = re.compile(r'^\s*|\s*$')
 
 
 def strip_func(str, char=None):
     if not char:        # if no character is specified, just strip the string
-        # new_str = re.sub(strip_left, "", str)
-        # new_str = re.sub(strip_right, "", new_str)
         new_str = re.sub(strip, "", str)
         return new_str
     else:               # otherwise, replace the whitespace with the character
-        new_str = re.sub(r'^\s*|\s*$', char, str)
+        new_str = re.sub(strip, char, str)
         return new_str
 
-strip_func('   Hello there fellow!   ')
+str = input("Enter the string you'd like to strip: ")
+char = input("Enter the character you'd like to replace the whitespace with \
+            (if desired). If not, press 'ENTER'.")
+
+strip_func(str, char)
