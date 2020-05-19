@@ -6,6 +6,8 @@ My solutions to the chapter projects in Al Sweigart's book, "Automate the Boring
 
 ## Chapter 7
 [Strip Whitespace](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-7/strip.py)
+[Strong Password (Detail)](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-7/strong_password_detail.py)
+[Strong Password](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-7/strong_password.py)
 
 ## Chapter 8
 
