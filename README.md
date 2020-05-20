@@ -36,7 +36,7 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 ## Chapter 13
 [Brute Force](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/brute_force.py)<br/>
 [Custom Invitations](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/custom_invitations.py)<br/>
-[PDF Paranoia](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/pdf_paranoia.py)<br/>
+[PDF Paranoia](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-13/PDF_paranoia.py)<br/>
 
 ## Chapter 14
 [Excel-to-CSV](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-14/excel_to_csv.py)<br/>
