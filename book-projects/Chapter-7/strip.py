@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # strip.py - A function version of the strip() string method. It can replace
 # the spaces with a character or characters of the user's choice.
 
