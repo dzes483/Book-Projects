@@ -1,4 +1,4 @@
-#! python 3
+#!/usr/bin/python3
 # strong_password.py - Detects whether a password is strong enough and provides
 # a detailed message stating what is missing.
 
