@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # mad_libs.py - Reads in a text file and lets the user add their own text
-# anywhere the word ADJECTIVE, NOUN, ADVERB, or VERB appears in the text file.
+# anywhere the word ADJECTIVE, NOUN, or VERB appears in the text file.
 # The results are then printed to the screen and saved to a new text file.
 
 import re
