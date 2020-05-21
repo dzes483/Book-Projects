@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # gap_inserter.py - This program inserts gaps into numbered files so that a new
 # file can be added.
 

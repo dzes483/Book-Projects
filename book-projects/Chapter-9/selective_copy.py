@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # selective_copy.py - This program walks through a folder tree and searches for
 # files with a certain file extension, provided by the user.
 # It then copies these files to a new folder.

@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # gap_filler.py - Finds all files with a given prefix (such as file001, file002,
 #, etc.) in a single folder and locates any gaps in the numbering (for example,
 # if there is a file001 and file003, but no file002). The program will rename

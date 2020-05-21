@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # big_file_hunter.py - Searches the specified path for the biggest files
 # (>1000mb) and displays these files with their absolute paths to the screen.
 

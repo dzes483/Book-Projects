@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # regex_search.py - Opens all .txt files in a folder and searches for any line
 # that matches a user-supplied regular expression. The results are printed to
 # the screen. The possible regex's are: 'phone number', 'ip address', 'email',
