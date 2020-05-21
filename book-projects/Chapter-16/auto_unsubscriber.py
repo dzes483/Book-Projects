@@ -18,7 +18,7 @@ user_email = "user@example.com"
 user_pass = 'user_pass'
 folder = "INBOX"
 
-# Login to the client with IMAP, and exit if login failed.
+# Login to the client with IMAP, and exit if the login failed.
 client = imaplib.IMAP4_SSL('imap.gmail.com')
 try:
     rv, data = client.login(user_email, user_pass)
