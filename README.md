@@ -48,3 +48,4 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 ## Chapter 16
 [Chore Assignment](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/chore_assignment.py)<br/>
 [Umbrella Reminder](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/umbrella_reminder.py)<br/>
+[Auto-Unsubscriber](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/auto_unsubscriber.py)<br/>
