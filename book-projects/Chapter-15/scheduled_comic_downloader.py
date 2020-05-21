@@ -59,7 +59,7 @@ for url in comic_urls:
         soup = BeautifulSoup(response.content, 'html.parser')
         today = datetime.datetime.now()
         file_name_today = datetime.datetime.today().strftime('%Y-%m-%d')
-        desktop_path = '/home/jessica/Desktop'
+        desktop_path = 'desktop_path'
         if url.startswith('http://www.lefthandedtoons.com/'):
 
             # Remove the Header 1 tag, since there is extra unneeded text.
