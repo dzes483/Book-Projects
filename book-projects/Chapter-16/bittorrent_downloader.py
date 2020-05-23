@@ -10,7 +10,7 @@ import email.header
 import subprocess
 
 USER_EMAIL = "user_email"
-USER_NAME = 'user_name' # name displayed before the email
+USER_NAME = 'user_name' # name displayed before the email address
 USER_PASS = 'user_pass'
 EMAIL_FOLDER = "INBOX"
 COMMAND_PWD = 'command_pwd'
