@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # link_verification.py - This program will download every linked page on the
 # given URL. Pages with a 404 "Not Found" error are flagged as broken links.
 
