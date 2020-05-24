@@ -50,3 +50,6 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 [Umbrella Reminder](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/umbrella_reminder.py)<br/>
 [Auto-Unsubscriber](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/auto_unsubscriber.py)<br/>
 [Bittorrent Downloader](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-16/bittorrent_downloader.py)<br/>
+
+## Chapter 17
+[Resize & Add Logo](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-17/resize_add_logo.py)<br/>
