@@ -11,7 +11,7 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 
 ## Chapter 8
 [Mad Libs](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-8/mad_libs.py)<br/>
-[Multi-Clipboard](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-8/mcb.py)<br/>
+[Multi-Clipboard](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-8/mcb.pyw)<br/>
 [Regex Search](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-8/regex_search.py)<br/>
 
 ## Chapter 9
