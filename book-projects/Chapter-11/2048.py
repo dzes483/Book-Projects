@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # 2048.py - This program plays the game at https://play2048.co/ automatically by
 # repeatedly pressing the UP, RIGHT, DOWN, and LEFT arrow buttons. The user can
 # quit the program at any time by pressing Ctrl+C.
