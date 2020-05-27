@@ -54,3 +54,4 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 ## Chapter 17
 [Resize & Add Logo](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-17/resize_add_logo.py)<br/>
 [Photo Folder Finder](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-17/photo_folder_finder.py)<br/>
+[Custom Seating Cards](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-17/custom_seating_cards.py)<br/>
