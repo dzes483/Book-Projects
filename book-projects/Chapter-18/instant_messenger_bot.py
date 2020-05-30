@@ -1,7 +1,7 @@
 # !/usr/bin/python3
 # instant_messenger_bot.py - Sends a message to a specific group of friends
 # using Facebook messenger. This assumes that the user is already logged into
-# messenger.
+# messenger and has it on the screen.
 
 import time
 import pyautogui
@@ -32,5 +32,5 @@ for friend in FRIEND_NAMES:
     # Type message and send it.
     pyautogui.typewrite(MESSAGE)
     pyautogui.typewrite('enter')
-    
+
 print('Done.')
