@@ -58,3 +58,4 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 
 ## Chapter 18
 [Looking Busy](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-18/looking_busy.py)<br/>
+[Instant Messenger Bot](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-18/instant_messenger_bot.py)<br/>
