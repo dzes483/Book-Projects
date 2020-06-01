@@ -2,7 +2,7 @@
 My solutions to the chapter projects in Al Sweigart's book, "*Automate the Boring Stuff with Python*".
 
 ## Chapter 3
-[Colatz Sequence](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-3/collatz.py)<br/>
+[Collatz Sequence](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-3/collatz.py)<br/>
 
 ## Chapter 4
 [Comma Code](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-4/comma_code.py)<br/>
