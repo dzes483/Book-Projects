@@ -7,12 +7,12 @@ table_data = [['apples', 'oranges', 'cherries', 'bananas'],
               ['dogs', 'cats', 'moose', 'geese']]
 
 
-def printTable(data):
+def print_table(data):
     for i in range(len(data[0])):   # for each list in the data
         for j in range(len(data)):  # for each item in the lists
-            # Find the longest item and its length.
+            # Find the longest item and its length, and arrange accordingly.
             x = len(max(data[j], key=len))
             print(data[j][i].rjust(x), end=' ')
         print()
 
-printTable(table_data)
+print_table(table_data)
