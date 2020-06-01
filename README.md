@@ -8,6 +8,9 @@ My solutions to the chapter projects in Al Sweigart's book, "*Automate the Borin
 [Comma Code](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-4/comma_code.py)<br/>
 [Character Picture Grid](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-4/picture_grid.py)<br/>
 
+## Chapter 5
+[Fantasy Game Inventory](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-5/fantasy_game_inventory.py)<br/>
+
 ## Chapter 6
 [Table Printer](https://github.com/dzes483/Book-Projects/blob/master/book-projects/Chapter-6/table_printer.py)<br/>
 
