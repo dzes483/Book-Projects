@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # brute_force.py - Attempts to decrypt an encrypted PDF file by trying every
 # possible English word until it finds one that works.
 

@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # chore_assignment.py - Takes a list of email addresses and a list of chores,
 # and randomly assigns them to people. Sends an email to each individual
 # stating their chore for the week.

@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # custom_invitations.py - Creates custom invitations from a .txt file of guests
 # and a pre-styled .docx document.
 

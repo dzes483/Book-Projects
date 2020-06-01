@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # resize_add_logo.py - Resizes all images in current working directory to fit
 # in a 300x300 square, and adds a logo to the lower-right corner, if the file
 # is more than twice the size of the logo. FILE_EXTS can be altered depending on

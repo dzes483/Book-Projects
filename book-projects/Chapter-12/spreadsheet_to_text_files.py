@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # text_files_to_spreadsheet.py - Reads the contents of the desired spreadsheet
 # and pastes the data into a separate text file, per column of data.
 

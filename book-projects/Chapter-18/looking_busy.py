@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # looking_busy.py - Nudges the mouse every ten seconds to prevent the display
 # of an idle status in messaging programs.
 

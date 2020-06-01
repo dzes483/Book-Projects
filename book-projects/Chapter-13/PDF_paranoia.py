@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # PDF_paranoia.py - Encrypts every PDF in a folder and its subfolders using a
 # provided password. It adds the suffix "_encrypted.pdf" to each newly-
 # encrypted file.

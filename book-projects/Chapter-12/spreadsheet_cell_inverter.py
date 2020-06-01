@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # spreadsheet_cell_inverter.py - Inverts the rows and columns in a spreadsheet.
 # For example, the value at row 5, column 3 will be inverted to row 3, column
 # 5. This affects all rows and columns in the spreadsheet.

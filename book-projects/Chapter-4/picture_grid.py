@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # picture_grid.py - Prints a flipped copy of the image in the grid.
 
 grid = [['.', '.', '.', '.', '.', '.',], # 0

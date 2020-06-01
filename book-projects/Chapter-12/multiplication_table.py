@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # multiplication_table.py - Takes a number N from the user and creates
 # an NxN multiplication table in an Excel spreadsheet.
 

@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # custom_seating_cards.py - Generates a seating card with a custom image
 # including the guest's name.
 

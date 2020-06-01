@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # Goes through every folder on the user's hard drive, searching for folders in
 # which more than half of the files end with either '.jpg' or '.png', and where
 # the photos are larger than 500 pixels.

@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # blank_row_inserter.py - Takes two integers and a filename string as
 # arguments. Starting at row num (first integer), the program inserts num_rows
 # (second integer) blank rows into the spreadsheet.

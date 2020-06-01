@@ -1,4 +1,4 @@
-#! python3
+#!/usr/bin/python3
 # text_files_to_spreadsheet.py - Reads in the contents of several text files
 # and inserts the contents into a spreadsheet, with one line of text per row.
 # The lines of the first text file will be found in the cells of column A, the

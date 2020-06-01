@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # instant_messenger_bot.py - Sends a message to a specific group of friends
 # using Facebook messenger. This assumes that the user is already logged into
 # messenger and has it on the screen.

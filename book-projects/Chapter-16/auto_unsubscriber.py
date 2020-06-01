@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # auto-unsubscriber.py - Scans through emails in the user's Gmail Inbox,
 # searching for any "Unsubscribe" links. It then opens them in a web browser,
 # allowing the user to unsubscribe. Due to the nature of unsubscribe links

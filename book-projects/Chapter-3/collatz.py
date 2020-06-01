@@ -1,4 +1,4 @@
-# !/usr/bin/python3
+#!/usr/bin/python3
 # collatz.py - Takes in an integer repeatedly until the output reaches 1,
 # demonstrating the Collatz sequence.
 
